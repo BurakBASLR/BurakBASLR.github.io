@@ -8,6 +8,7 @@
 }
 /*Video*/
 .background-video {
+    background-image: url(../BurakBASLR.github.io/0001-0300.mkv);
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -77,6 +78,7 @@ label:hover :checked + .flip-card {
 }
 
 .front img {
+  background-image: url(../BurakBASLR.github.io/Images/Capture1.png);
 	width: 140px;
 	height: 140px;
 	margin: 1px 0 20px 0;
