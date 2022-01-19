@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -586,13 +587,13 @@
 
 
 #courses .card-image.card2 {
-  background: url("../Coursera-clone/images/test4.jpg");
+  background: url("images/test4.jpg");
   background-size: cover;
 }
 
 
 #courses .card-image.card3 {
-  background: url("../Coursera-clone/images/test3.jfif");
+  background: url("images/test3.jfif");
   background-size: cover;
 }
 @media only screen and (max-width: 1175px) {
