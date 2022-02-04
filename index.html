@@ -1,239 +1,554 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Coursera Redesign Website</title>
-     <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
- </head>
- <body>
-<!--Navbar Start-->
-<section id="nav-bar" class="container">
-    <header class="nav-bar">
-    <img src="images/Nav1.svg">
-    <div class="brand">
-    
-    </div>
-      <div class="nav-list">
-        <div class="hamburger">
-          <div class="bar"></div>
-        </div>
-        <ul>
-          <li><a href="#hero">Main Page</a></li>
-          <li><a href="#logos">Logos</a></li>
-          <li><a href="#courses">Courses</a></li>
-        </ul>
-      </div>
-    </header>
-  </section> 
-<!--Navbar End-->
+<!DOCTYPE html>
+<html lang="en">
 
-<!--Hero Section Start-->
-<section id="hero">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <title>Acht VR</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./globalStyles.css">
+  <link rel="stylesheet" href="./components.css">
+  <!-- aos library css  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Add your custom css -->
+  <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+  <!-- Nav Section -->
+  <div class="nav">
     <div class="container">
-        <div class="content">
-            <ul>
-                <li>
-                    <div class="book">
-                        <ul class="front">
-                            <li>
-                                <div class="frontcover">
-                                  <p class="title">Welcome to Coursera</p>
-                                  <h2 class="heading">Learn without limits</h2>
-                                  <p class="sub-title">Build new skills for that <br> “this is my year” feeling </p>
-                                  <div class="book-icon">
-                                    <img src="images/Nav1.svg" alt="">
-                                  </div>
-                                  <div class="writer">
-                                    <img src="images/Landing 1.png" alt="">
-                                    <p>
-                                        <i> Website For</i> <br> HYF
-                                    </p>
-                                  </div>
-                               </div>  
-                            </li>
-                            <li></li>
-                        </ul>
-                        <ul class="page">
-                            <li></li>
-                            <li>
-                                <a href="#courses" class="btn">Start Your <br> Journey Now</a>
-                            </li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
+      <div class="nav__wrapper">
+        <a href="./index.html" class="logo">
+          <img src="./images/logo1.jpg" alt="shaif's cuisine">
+        </a>
+        <nav>
+          <div class="nav__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-menu">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </div>
+          <div class="nav__bgOverlay"></div>
+          <ul class="nav__list">
+            <div class="nav__close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-x">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </div>
+            <div class="nav__list__wrapper">
 
-                        <ul class="back">
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section> 
-<!--Hero Section Ends-->  
-
-<!--Classes Section Start-->
-<section id="logos">
-    <div class="container">
-        <h2 class="section-heading" >We collaborate with <a href="#">200+ leading universities and companies</a></h2>
-      <div class="all-items">
-        <div class="item">
-          <img src="images/Logo1.png">
-          <h3 class="item-heading">lorem ipsum</h3>
-          <p class="item-desc">get ready to launch your career in cybersecurity. Build job-ready skills  </p>
-        </div> 
-        <div class="item">
-          <img src="images/logo2.png">
-          <h3 class="item-heading">lorem ipsum</h3>
-          <p class="item-desc">get ready to launch your career in cybersecurity. Build job-ready skills </p>
-        </div> 
-        <div class="item">
-        <img src="images/logo3.png">
-          <h3 class="item-heading">lorem ipsum</h3>
-          <p class="item-desc">get ready to launch your career in cybersecurity. Build job-ready skills</p>
-        </div>
-        <div class="item">
-        <img src="images/logo4.png">
-          <h3 class="item-heading">lorem ipsum</h3>
-          <p class="item-desc">get ready to launch your career in cybersecurity. Build job-ready skills  </p>
-        </div>
-        <div class="item">
-          <img src="images/logo5.png">
-          <h3 class="item-heading">lorem ipsum</h3>
-          <p class="item-desc">get ready to launch your career in cybersecurity. Build job-ready skills </p>
-        </div>   
-      </div>
-    </div>
-  </section>
-  <!--Classses sec ends-->
-  <!-- Courses Sec starts-->
-<section id="courses">
-  <div class="card">
-    <div class="card-image"></div>
-    <div class="card-text">
-      <img src="images/logo2.png">
-      <h2>Google UX</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
-    </div>
-    <div class="card-stats">
-      <div class="stat">
-        <div class="value">5k+</sup></div>
-        <div class="type">students</div>
-      </div>
-      <div class="stat border">
-        <div class="value">4.7/5</div>
-        <div class="type">rating</div>
-      </div>
-      <div class="stat">
-        <div class="value">914</div>
-        <div class="type">comments</div>
+              <li><a class="nav__link" href="./index.html">Home</a></li>
+              <li><a class="nav__link" href="./">Menu</a></li>
+              <li><a class="nav__link" href="./">About</a></li>
+              <li><a class="nav__link" href="./">Projects</a></li>
+              <li><a href="./" class="btn primary-btn">Contact Us</a></li>
+            </div>
+          </ul>
+        </nav>
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="card-image card2"></div>
-    <div class="card-text card2">
-      <img src="images/logo8.png">
-      <h2>IBM Cybersecurity</h2>
-      <p>Get ready to launch your career in cybersecurity. Build job-ready skills for an in-demand role in the field, no degree or prior experience required</p>
+  <!-- End Nav Section -->
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero__wrapper">
+        <div class="hero__left" data-aos="fade-left">
+          <div class="hero__left__wrapper">
+
+            <h1 class="hero__heading">Acht VR</h1>
+            <p class="hero__info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolore sed doloribus. Tempora, recusandae. Illum minima beatae dolorum dolorem corporis nesciunt! Eveniet nesciunt vero, modi accusamus maiores tenetur amet eligendi?
+            </p>
+            <div class="button__wrapper">
+              <a href="./menu.html" class="btn primary-btn">Explore </a>
+              <a href="./booking.html" class="btn">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero__right" data-aos="fade-right">
+          <div class="hero__imgWrapper">
+            <img src="./images/image.png">
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="card-stats card2">
-      <div class="stat">
-        <div class="value">5k+</sup></div>
-        <div class="type">students</div>
+  </section>
+  <!-- End Hero Section -->
+   <!-- Events Info -->
+   <section id="eventsInfo" data-aos="fade-up">
+    <div class="container">
+      <div class="eventsInfo__wrapper">
+        <div class="eventsInfo__left">
+          <div class="eventsInfo__item">
+            <div class="eventsInfo__item__img">
+              <img src="./images/image.png" alt="corporate events">
+            </div>
+            <div class="eventsInfo__item__info">
+              <h2 class="eventsInfo__item__title"> Events</h2>
+              <p class="eventsInfo__item__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur iure vel id aperiam dolorum reprehenderit maiores illo sunt repellendus adipisci dolor tempora a, inventore, libero neque explicabo optio exercitationem doloremque?
+              </p>
+            </div>
+          </div>
+          <div class="eventsInfo__item">
+            <div class="eventsInfo__item__img">
+              <img src="./images/image.png" alt="wedding events">
+            </div>
+            <div class="eventsInfo__item__info">
+              <h2 class="eventsInfo__item__title">Events</h2>
+              <p class="eventsInfo__item__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veniam dicta exercitationem cupiditate dolorum ad quo iste laborum culpa cum, est, eaque tenetur unde corporis! In nisi soluta exercitationem laborum?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="eventsInfo__right">
+          <h2 class="eventsInfo__title">Book For Events</h2>
+          <p class="eventsInfo__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, voluptates fugiat. Veritatis expedita quas, exercitationem doloribus quae corrupti aperiam, fugit fugiat placeat omnis, necessitatibus numquam vero. Ab, cupiditate! Illum, accusamus.</p>
+          <a href="./contact.html" class="btn primary-btn">Contact Now</a>
+        </div>
       </div>
-      <div class="stat border">
-        <div class="value">4.7/5</div>
-        <div class="type">rating</div>
+    </div>
+  </section>
+  <!-- End Events Info -->
+
+    <!-- Events Media -->
+    <section id="eventsMedia" data-aos="fade-up">
+      <div class="container">
+        <div class="eventsMedia__wrapper">
+          <div class="eventsMedia__1">
+            <img src="#" alt="events">
+            <a href="#" class="eventsMedia__1__playButton">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/NtETTH1VmH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YW99DHOl098" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/TckqNdrdbgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <img src="./images/playIcon.svg" alt="play button">
+            </a>
+          </div>
+          <div class="eventMedia__2">
+            <img src="#" alt="events">
+          </div>
+        </div>
       </div>
-      <div class="stat">
-        <div class="value">914</div>
-        <div class="type">comments</div>
+    </section>
+    <!-- End Events Media -->
+
+  <!-- Our Specials Section -->
+  <section id="ourSpecials" data-aos="fade-up">
+    <div class="container">
+      <div class="ourSpecials__wrapper">
+        <div class="ourSpecials__left">
+          <div class="ourSpecials__item">
+            <div class="ourSpecials__item__img">
+              <img src="./images/image.png" alt="food img">
+            </div>
+            <h2 class="ourSpecials__item__title">
+              Lorem
+            </h2>
+            <h3 class="ourSpecials__item__price">
+              18
+            </h3>
+            <div class="ourSpecials__item__stars">
+              <img src="./images/3star.png" alt="3 stars">
+            </div>
+            <p class="ourSpecials__item__text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste fugiat, tenetur earum exercitationem nesciunt rerum, hic error tempore aliquam nemo assumenda perferendis quae dolores eaque voluptatum! Architecto, libero. Quidem, sapiente?
+            </p>
+          </div>
+          <div class="ourSpecials__item">
+            <div class="ourSpecials__item__img">
+              <img src="./images/image.png" alt="food img">
+            </div>
+            <h2 class="ourSpecials__item__title">
+              Lorem
+            </h2>
+            <h3 class="ourSpecials__item__price">
+              18
+            </h3>
+            <div class="ourSpecials__item__stars">
+              <img src="./images/3star.png" alt="3 stars">
+            </div>
+            <p class="ourSpecials__item__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nam corporis odit deleniti quibusdam nemo voluptate. Et, porro deserunt nulla magnam, perferendis corporis dicta autem distinctio alias, repudiandae ipsam vel?
+            </p>
+          </div>
+        </div>
+        <div class="ourSpecials__right">
+          <h2 class="ourSpecials__title">
+            Lorem
+          </h2>
+          <p class="ourSpecials__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequuntur quas doloremque earum, quaerat hic quibusdam! Odio iusto repellendus eius necessitatibus perferendis, natus ab. Ipsum sequi amet eius explicabo atque?
+          </p>
+          <a href="./" class="btn primary-btn">Book Session</a>
+        </div>
       </div>
+    </div>
+  </section>
+  <!-- End Our Specials Section -->
+  <!-- Top Dishes -->
+  <section id="dishGrid" data-aos="fade-up">
+    <div class="container">
+      <h2 class="dishGrid__title">
+        Lorem
+      </h2>
+      <div class="dishGrid__wrapper">
+        <div class="dishGrid__item">
+          <div class="dishGrid__item__img">
+            <img src="./images/image.png" alt="food img">
+          </div>
+          <div class="dishGrid__item__info">
+            <h3 class="dishGrid__item__title">
+              Lorem
+            </h3>
+            <h3 class="dishGrid__item__price">12</h3>
+            <div class="dishGrid__item__stars">
+              <img src="" alt="3 star">
+            </div>
+          </div>
+        </div>
+        <div class="dishGrid__item">
+          <div class="dishGrid__item__img">
+            <img src="./images/image.png" alt="food img">
+          </div>
+          <div class="dishGrid__item__info">
+            <h3 class="dishGrid__item__title">
+              Lorem
+            </h3>
+            <h3 class="dishGrid__item__price">12</h3>
+            <div class="dishGrid__item__stars">
+              <img src="" alt="3 star">
+            </div>
+          </div>
+        </div>
+        <div class="dishGrid__item">
+          <div class="dishGrid__item__img">
+            <img src="./images/image.png" alt="food img">
+          </div>
+          <div class="dishGrid__item__info">
+            <h3 class="dishGrid__item__title">
+              Lorem
+            </h3>
+            <h3 class="dishGrid__item__price">12</h3>
+            <div class="dishGrid__item__stars">
+              <img src="./images/3star.png" alt="3 star">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Top Dishes -->
+=
+    <!-- Store Info Section -->
+    <section id="storeInfo" data-aos="fade-up">
+      <div class="container">
+        <div class="storeInfo__wrapper">
+          <div class="storeInfo__item">
+            <div class="storeInfo__icon">
+              <img src="./images/wall-clock-icon.svg" alt="clock icon">
+            </div>
+            <h3 class="storeInfo__title">
+              10 AM - 7 PM
+            </h3>
+            <p class="storeInfo__text">
+              Opening Hour
+            </p>
+          </div>
+          <div class="storeInfo__item">
+            <div class="storeInfo__icon">
+              <img src="./images/address-icon.svg" alt="clock icon">
+            </div>
+            <h3 class="storeInfo__title">
+              GEC, Chittagong
+            </h3>
+            <p class="storeInfo__text">
+              Address
+            </p>
+          </div>
+          <div class="storeInfo__item">
+            <div class="storeInfo__icon">
+              <img src="./images/phone-icon.svg" alt="clock icon">
+            </div>
+            <h3 class="storeInfo__title">
+              +0684048065
+            </h3>
+            <p class="storeInfo__text">
+              Call 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Store Info Section -->
+
+ 
+  <!-- Why Us section -->
+  <section id="whyUs">
+    <div class="container">
+      <div class="whyUs__wrapper">
+        <div class="whyUs__left" data-aos="fade-right">
+          <h2 class="whyUs__title">
+            Lorem
+          </h2>
+          <p class="whyUs__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, illo sequi dolorum, facere exercitationem accusantium molestiae amet reprehenderit praesentium magni ullam vero ipsa nam dignissimos corporis, omnis provident esse perspiciatis.
+          </p>
+        </div>
+        <div class="whyUs__right" data-aos="fade-left">
+          <div class="whyUs__items__wrapper">
+            <div class="whyUs__item">
+              <div class="whyUs__item__icon">
+                <img src="./images/image.png" alt="quality Food">
+              </div>
+              <p class="whyUs__item__text">Quality Food</p>
+            </div>
+            <div class="whyUs__item">
+              <div class="whyUs__item__icon">
+                <img src="./images/image.png" alt="Classical taste">
+              </div>
+              <p class="whyUs__item__text">Classical taste</p>
+            </div>
+            <div class="whyUs__item">
+              <div class="whyUs__item__icon">
+                <img src="./images/image.png" alt="Skilled chef">
+              </div>
+              <p class="whyUs__item__text">Skilled chef</p>
+            </div>
+            <div class="whyUs__item">
+              <div class="whyUs__item__icon">
+                <img src="./images/image.png" alt="Best service">
+              </div>
+              <p class="whyUs__item__text">Best service</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Why Us section -->
+
+  <!-- Testimonial Section -->
+  <section id="testimonial">
+    <div class="container">
+      <div class="testimonial__wrapper" data-aos="fade-up">
+        <h2 class="testimonial__title">What Our Customers Say</h2>
+        <div class="testimonial__items__wrapper">
+          <div class="testimonial__item">
+            <div class="testimonial__item__img">
+              <img src="./images/image.png" alt="Sayed Ahmed">
+            </div>
+            <div class="testimonial__item__info">
+              <h3 class="testimonial__item__name">lorem </h3>
+              <div class="testimonial__item__stars">
+                <img src="./images/3star.png" alt="3 star">
+              </div>
+              <p class="testimonial__item__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem culpa laboriosam facilis officiis libero alias ullam cupiditate vero amet illum. Tenetur totam ipsum sint dolore, alias beatae possimus laudantium aspernatur.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial__item">
+            <div class="testimonial__item__img">
+              <img src="./images/image.png" alt="Sayed Ahmed">
+            </div>
+            <div class="testimonial__item__info">
+              <h3 class="testimonial__item__name">lorem</h3>
+              <div class="testimonial__item__stars">
+                <img src="./images/3star.png" alt="3 star">
+              </div>
+              <p class="testimonial__item__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta saepe, ullam necessitatibus, fugit voluptates eum vitae dolorem officiis, obcaecati vero rem eaque ea quasi veniam consectetur ducimus quis dignissimos voluptatibus!
+              </p>
+            </div>
+          </div>
+          <div class="testimonial__item">
+            <div class="testimonial__item__img">
+              <img src="./images/image.png" alt="Sayed Ahmed">
+            </div>
+            <div class="testimonial__item__info">
+              <h3 class="testimonial__item__name">lorem</h3>
+              <div class="testimonial__item__stars">
+                <img src="./images/3star.png" alt="3 star">
+              </div>
+              <p class="testimonial__item__text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, omnis minima eligendi veritatis neque asperiores explicabo repellat eum itaque nobis, voluptate voluptatem dolorum cupiditate laboriosam blanditiis cum similique. Sapiente, laborum.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial__item">
+            <div class="testimonial__item__img">
+              <img src="./images/image.png" alt="Sayed Ahmed">
+            </div>
+            <div class="testimonial__item__info">
+              <h3 class="testimonial__item__name">lorem</h3>
+              <div class="testimonial__item__stars">
+                <img src="./images/3star.png" alt="3 star">
+              </div>
+              <p class="testimonial__item__text">
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ullam ipsa sint, fugiat nisi accusantium dolorum, molestiae iste fuga nesciunt quasi, nam minima animi. Veritatis accusamus totam fuga velit doloribus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Testimonial Section -->
+  <!-- Newsletter Section -->
+  <section id="newsletter" data-aos="fade-up">
+    <div class="container">
+      <div class="newsletter__wrapper">
+        <div class="newsletter__info">
+          <h3 class="newsletter__title">Join Newsletter</h3>
+          <p class="newsletter__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere nesciunt et officia dignissimos aperiam cumque consequatur autem minus error praesentium ea quia quos harum sequi, deserunt corrupti tempore quam.
+          </p>
+        </div>
+        <div class="newsletter__form">
+          <form action="">
+            <label for="email">
+              <input type="email" placeholder="Your Email Address">
+            </label>
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Newsletter Section -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__col1">
+          <div class="footer__logo">
+            <img src="./images/logo1.jpg" alt="shaif's cuisine">
+          </div>
+          <p class="footer__desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ipsa quam odio obcaecati enim laudantium minima eaque? Quasi provident, quo, porro nulla eius voluptates explicabo deleniti iure laudantium odit iusto?
+          </p>
+          <div class="footer__socials">
+            <h4 class="footer__socials__title">Follow us</h4>
+            <ol class="footer__socials__list">
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-facebook">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-instagram">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-twitter">
+                    <path
+                      d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                  </svg>
+                </a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="footer__col2">
+          <h3 class="footer__text__title">
+            Links
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            <li>
+              <a href="./menu.html">Menu</a>
+            </li>
+            <li>
+              <a href="./booking.html">Book a Section</a>
+            </li>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a href="./contact.html">Contact Us</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col3">
+          <h3 class="footer__text__title">
+            Support
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Support Center</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col4">
+          <h3 class="footer__text__title">
+            Contact
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">+684048065</a>
+            </li>
+            <li>
+              <a href="#">info@achtvr.com</a>
+            </li>
+            <li>
+              <a href="#">Leiden , Netherlands</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="copyright">
+    <div class="container">
+      <p class="copyright__text">
+        © Copyright 2021 Acht Vr | All rights reserved
+      </p>
     </div>
   </div>
-  <div class="card">
-      <div class="card-image card3"></div>
-      <div class="card-text card3">
-        <img src="images/logo4.png">
-        <h2>Stanford</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
-      </div>
-      <div class="card-stats card3">
-        <div class="stat">
-          <div class="value">5k+</sup></div>
-          <div class="type">students</div>
-        </div>
-        <div class="stat border">
-          <div class="value">4.7/5</div>
-          <div class="type">rating</div>
-        </div>
-        <div class="stat">
-          <div class="value">914</div>
-          <div class="type">comments</div>
-        </div>
-      </div>
-    </div>
-</section>
-<!--Courses Section ends-->
-<!--footer Section Starts-->
-<section id="footer">
-    <div class="container">
-      <footer>
-        <div class="col-1">
-          <div class="logo"><a href="#">
-              <img src="images/Nav1.svg" alt="">
-            </a></div>
-          <p>We have got the solution: world-class training and development programs developed by top universities and companies. All on Coursera for Business. </p>
-        </div>
-        <div class="col-2">
-          <h2 class="column-heading">Important<br>Links</h2>
-          <ul>
-            <li><a href="#">Start or advance your career</a></li>
-            <li><a href="#">Browse popular topics</a></li>
-            <li><a href="#">Popular courses and articles</a></li>
-            <li><a href="#">Earn a degree or certificate online</a></li>
-            <li><a href="#">More</a></li>
-          </ul>
-        </div>
-        <div class="col-3">
-          <h2 class="column-heading">Contact<br>Info</h2>
-          <ul>
-            <li><a href="#">Coursera@coursera.com</a></li>
-            <li><a href="#">+12345678</a></li>
-            <li><a href="#">Somewhere , USA</a></li>
-          </ul>
-        </div>
-        <div class="col-4">
-          <h2 class="column-heading">Social<br>Links</h2>
-          <ul>
-            <li><a href="#">FB</a></li>
-            <li><a href="#">TW</a></li>
-            <li><a href="#">IG</a></li>
-            <li><a href="#">YT</a></li>
-          </ul>
-        </div>
-      </footer>
-    </div>
-  </section>
-  <section id="copyright">
-    <div class="container">
-      <p> &copy; 2022 Coursera Inc. All rights reserved.</p>
-    </div>
-  </section>
- </body>
- <script>
- const hamburger_icon = document.querySelector('#nav-bar .nav-bar .nav-list .hamburger');
- const nav_list = document.querySelector('#nav-bar .nav-bar .nav-list');
+  <!-- End Footer -->
 
- hamburger_icon.addEventListener('click', () => {
-	nav_list.classList.toggle('open');
-	hamburger_icon.classList.toggle('active');
- });     
- </script>
- </html>
+  <!-- aos script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- custom script -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
